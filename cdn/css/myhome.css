@@ -1,0 +1,165 @@
+body {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#read_more{
+    border-radius: 20px;
+}
+.welcome {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('{{url_for("static", filename="images/bg2.jpg")}}');
+    background-size: cover;
+    opacity: 0.9;  */
+    height: 100vh;
+    background: #363537;
+}
+footer{
+    background: #363537;
+    padding: 4% 17%;
+}
+
+.welcome-text {
+    padding:9% 3% 2% 3%;
+}
+.my-text{
+color:lightgray;
+}
+.font{
+    font-size: 43px;
+}
+.welcome-button {
+    border-radius: 5px;
+}
+
+.link-btn {
+    border-radius: 15px;
+}
+
+.welcome-button {
+    width: 150px;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.svg {
+    width: 30px;
+}
+
+.zoom {
+    transition: transform 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+}
+
+button:focus {
+    outline: none;
+}
+
+.underbottom {
+    border: none;
+    border-bottom: 3px solid palegreen;
+}
+
+vr {
+    color: red;
+}
+
+.plans,
+.faq {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/bg1.jpg")');
+    background-size: cover;
+    opacity: 0.9;
+    padding: 1.3% 4%;
+    border-radius: 30px;
+}
+
+.plan-btn {
+    border-radius: 12px;
+    width: 150px;
+}
+
+.plan {
+    border-radius: 15px;
+}
+
+.contact-inputs {
+    width: 90%;
+    outline: none;
+    padding: 1%;
+    opacity: 0.8;
+    background: transparent;
+}
+
+.uk-input:focus,
+.uk-textarea:focus {
+    background: transparent;
+    outline-color: red;
+}
+
+textarea {
+    height: 20vh;
+}
+
+.contact-form {
+    border-radius: 12px;
+}
+
+.faq-items {
+    border-radius: 15px;
+}
+
+.answers {
+    display: none;
+}
+
+.questions {
+    padding: 2% 0;
+}
+
+.investment_plan {
+    margin: auto;
+    width: 35%;
+}
+
+.about,
+.contacts {
+    border-radius:0px;
+}
+
+.salem-font:hover{
+    border: none;
+    border-bottom: none;
+}
+#offcanvas-slide{
+    background: #363537;
+}
+.full-height{
+    margin-top: 7%;
+    padding-top: 50%;
+    height: 70vh;
+}
+.chart-btn{
+    border-radius: 30px;
+}
+
+@media screen and (max-width:767px) {
+    .investment_plan {
+        margin: auto;
+        width: 65%;
+    }
+}
+@media screen and (max-width:567px) {
+    .welcome-text {
+        padding:9% 5% 2% 5%;
+    }
+    .full-height{
+        margin-top: 30%;
+        height: 50vh;
+    }
+}

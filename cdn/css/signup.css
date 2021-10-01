@@ -1,0 +1,56 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.signup-form{
+    border-radius: 15px;
+    width: 35%;
+    margin: auto;
+}
+
+.signup-form input{
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    padding: 2%;
+    outline: none;
+    background: #263238;
+}
+
+.submit-btn{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.login-link-2{
+    width: 35%;
+    margin: auto;
+    border-radius: 8px;
+}
+.names div{
+  width: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .signup-form{
+        width: 60%;
+    }
+    .login-link-2{
+        width: 60%;
+    }
+}
+@media screen and (max-width:500px) {
+    .signup-form{
+        width: 90%;
+    }
+    .login-link-2{
+        width: 90%;
+    }
+}
